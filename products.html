@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubbles & Rainbows</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+  </head> 
+  <body>
+   <div class="p-4 m-4 space-y-4">
+    <h1 class="font-bold text-3xl text-left uppercase text-indigo-500">Products</h1>
+     
+     <div class= "md:flex">
+      <div class="md:w-1/2">
+
+            <!--This product is running low-->
+            <h3 class="font-medium text-lg text-left text-indigo-50 bg-indigo-500 rounded-xl w-44 px-4 py-2"> Rainbow Splash</h3>
+            <p>
+              <img src="C&M.JPG">
+            </p>
+            <ul>
+              <li class="font-normal text-base">12 Macarons and 1 Bottle of Beau Joie Special Cuvee Brut</li>
+             <div class="mb-6">
+              <li class="font-normal text-base">$89.99</li>
+             </div>
+            </ul>            
+       </div> 
+        
+      <div class="md:w-1/2">
+          
+            <h3 class="font-medium text-lg text-left text-indigo-50 bg-indigo-500 rounded-xl w-44 px-4 py-2"> Birthday Confetti</h3>
+            <p>
+              <img src="Hope.JPG">
+            </p>
+            <ul>
+              <li class="font-normal text-base">12 Macarons and 1 Bottle of One Hope Brut</li>
+              <li class="font-normal text-base">$139.99</li>
+            </ul>         
+      </div>
+     </div>
+           
+      <p class="font-thin text-sm text-left">Go <a href="index.html">home</a> </p>
+
+      <div>
+        <h1 class="text-left font-bold text-base uppercase"> Would you like to be added to our mailing list?</h1>
+    
+        <form netlify action="https://maps.google.com">
+          <label for="name"class="font-semibold">Provide your email address:</label>
+          <input type="text" id="name" name="name" class="border border-indigo-400 rounded my-2 p-2 focus:outline-none">
+          <button class="block mt-4 bg-indigo-500 text-indigo-50 px-4 py-2 rounded-xl text-center">Submit</button>
+        </form>
+
+   </div>
+  </body>
+</html>
